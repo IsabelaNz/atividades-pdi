@@ -1,17 +1,31 @@
 package org.fase1;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
+
 public class fase1 {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        Scanner scanner = new Scanner(System.in);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+        String nome = "";
+        int nota1 = 0;
+        int nota2 = 0;
+        double media;
+
+        System.out.println("Digite o nome do aluno:");
+        nome = scanner.nextLine();
+
+        System.out.println("Digite a nota 1:");
+        nota1 = scanner.nextInt();
+
+        System.out.println("Digite a nota 2:");
+        nota2 = scanner.nextInt();
+
+        media = (nota1 + nota2) / 2.0;
+
+        if (media >= 7) {
+            System.out.println("O aluno " + nome + " está aprovado com media: " + media);
+        } else {
+            System.out.println("O aluno " + nome + " está de recuperação com media: " + media);
         }
     }
 }
