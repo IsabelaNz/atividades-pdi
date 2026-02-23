@@ -6,9 +6,9 @@ public class fase1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String nome = "";
-        int nota1 = 0;
-        int nota2 = 0;
+        String nome;
+        int nota1;
+        int nota2;
         double media;
 
         System.out.println("Digite o nome do aluno:");
