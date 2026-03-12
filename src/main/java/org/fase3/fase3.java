@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class fase3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        //.lenght descobre tamanho array
 
         int[] notas = new int[5];
 
@@ -17,6 +18,7 @@ public class fase3 {
         int menorNota = notas[0];
         int soma = 0;
 
+        // para cada valor dentro do array notas, coloque esse valor na variavel nota 7,6,8,9
         for (int nota : notas) {
             if (nota > maiorNota) {
                 maiorNota = nota;
