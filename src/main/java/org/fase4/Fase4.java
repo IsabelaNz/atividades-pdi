@@ -3,7 +3,7 @@ package org.fase4;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class fase4 {
+public class Fase4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

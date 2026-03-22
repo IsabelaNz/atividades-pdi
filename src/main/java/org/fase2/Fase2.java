@@ -2,7 +2,7 @@ package org.fase2;
 
 import java.util.Scanner;
 
-public class fase2 {
+public class Fase2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

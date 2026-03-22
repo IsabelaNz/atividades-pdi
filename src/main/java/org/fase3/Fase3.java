@@ -2,7 +2,7 @@ package org.fase3;
 
 import java.util.Scanner;
 
-public class fase3 {
+public class Fase3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //.lenght descobre tamanho array

@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class fase5 {
+public class Fase5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
